@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizabeth Jenkins CV</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="container bg-dark">
+        <div class="text-center">
+            <div class="row">
+                  <div class="col">
+                    <a href="index.html">Inicio</a>
+                </div>
+                <div class="col">
+                    <a href="#sobre-mi">Sobre Mi</a>
+                </div>
+                <div class="col">
+                    <a href="#experiencia">Experiencia</a>
+                </div>
+                <div class="col">
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </header>    
+
+    <!-- Presentación (Sobre Mi)-->
+
+    <section id="sobre-mi" class="container bg-danger">
+        <div class="row">
+            <div class="col text-center ">
+                <img class="circled" src="DianaParker_PFP.jpg" alt="Foto de Diana Parker">
+                <h1>Permíteme presentarme</h1>
+                <p>Mi nombre es <b>Elizabeth Jenkins</b>, mi ocupación es la de desarrollar y mantener sitios de web.</p>                
+                <p>A continuación puedes ver cuáles son los cursos que he tomado y cuáles son mis habilidades..</p>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion de Experiencia -->
+
+    <section id="experiencia" class="container bg-info bg-gradient">
+        <div class="container">
+            <h1>Educación en Ticmas</h1>
+            <div class="row">
+                <div class="col">
+                <i class="fa-brands fa-html5"></i>
+                  <h6><b>HTML</b></h6>
+                    <ul>
+                        <li>Organización y matequetado de una página web</li>
+                    </ul>
+                </div>
+                <div class="col">
+                  <i class="fa-brands fa-css3-alt"></i>
+                  <h6><b>CSS</b></h6>
+                  <ul>
+                    <li>Estilización y uso de las Cascadas de Estilos y algunos populares frameworks de trabajo</li>
+                  </ul>
+                </div>
+                <div class="col">
+                <i class="fa-brands fa-js"></i>
+                    <h6>JS</h6>
+                  <ul>
+                    <li>Añadir funcionalidades a la página web a través de JavaScript</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col"></div>
+              </div>
+    </section>
+
+    <!-- Seccion de Contacto -->
+    <section id="contacto" class="container bg-primary bg-gadient">
+        <div class="col">
+            <h2>Contáctame</h2>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <label for="Nombre" class="form-label">Nombre</label>
+                        <input id="enviado" type="text" class="form-control" placeholder="Juan" required>
+                      </div>
+                      <div class="col">
+                        <label for="Apellido" class="form-label">Apellido</label>
+                        <input id="enviado" type="text" class="form-control" placeholder="Monterrey" required>
+                      </div>
+                </div>  
+                <div class="col">
+                    <label for="E-mail" class="form-label">Email</label>
+                    <input id="enviado" type="text" class="form-control" placeholder="example@email.com" required>
+                    
+                </div>   
+            
+            <div class="col">
+                <label for="Mensaje" class="form-label">Mensaje</label>
+                <input id="enviado" type="text" class="form-control" placeholder="Hola Elizabeth, me comunico para saber si.." required>
+                
+            </div>       
+                <div class="col form-check">
+                  <input id="enviado" type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Aceptamos que esta información no será enviada a terceros y sólo servirá para comunicarse con la persona a la que está pagina es perteneciente.</label>
+                </div>
+                <button type="button" class="btn btn-primary  bg-danger" onclick="MensajeEnviado()">Enviar</button>
+              </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+
+    <footer class="container bg-success">
+        <div class="row">
+            <div class="col">
+                <h6>Elizabeth Jenkins</h6>
+                <ul>
+                    <li><i class="fa-sharp fa-solid fa-envelope"></i>elizabeth.jenkins@example.com</li>
+                    <li><i class="fa-solid fa-house"></i>7382 Saddle Dr</li>
+                    <li><i class="fa-solid fa-phone"></i>(410) 841-1648<li>
+                </ul>
+            </div>
+            <div class="col">
+                <h6>Redes Sociales</h6>
+                <ul>
+                    <li><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li><i class="fa-brands fa-facebook"></i>Facebook</li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- Local JavaScript -->
+    
+    <script src="js/script.js"></script>
+
+    <script src="https://kit.fontawesome.com/9f158f0d38.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
