@@ -1,0 +1,35 @@
+
+.circled {
+    border-radius: 50%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: white;
+}
+h6 {
+    color: yellow
+}
+
+section, header, footer {
+    padding: 15px;
+    padding-top: 0;
+}
+
+#enviado:hover {
+    background-color: red;
+}
+
+footer {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
